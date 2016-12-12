@@ -9,7 +9,7 @@ def user_function_is_valid(cl_args):
         return False
         exit()
 
-def encrypt():
+def encrypt_text():
     """Switch all characters for new characters a specified distance away"""
     text = str(input("Type a message: "))
     rot = int(argv[1])
